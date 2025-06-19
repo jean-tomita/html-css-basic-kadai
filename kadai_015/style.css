@@ -1,0 +1,30 @@
+/* フォント・全体設定 */
+body {
+  font-family: "Arial", "Meiryo", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* h1スタイル */
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px; /* ルートの2倍 */
+  letter-spacing: 1.2em; /* 文字サイズの1.2倍相当 */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* 自由な影 */
+  border-bottom: 3px solid rgb(115, 115, 114);
+  margin-bottom: 20px;
+}
+
+/* 色指定 */
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+.blue {
+  color: skyblue;
+}
+
+/* 太字指定：#basic 内の p 要素のみ */
+#basic p {
+  font-weight: bold;
+}
